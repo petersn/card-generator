@@ -1,0 +1,38 @@
+defaultConfig:
+  # Our base image happens to be 600x850, the standard aspect ratio
+  baseImage: "inputs/card_template.png"
+
+fields:
+  name:
+    x: 20
+    y: 10
+    font: "inputs/Montserrat-Regular.otf"
+    fontSize: 50
+    color: [0, 0, 0]
+  atk:
+    x: 50
+    y: 770
+    font: "inputs/Montserrat-Regular.otf"
+    fontSize: 48
+    color: [0, 0, 0]
+  def:
+    x: 500
+    y: 770
+    font: "inputs/Montserrat-Regular.otf"
+    fontSize: 48
+    color: [0, 0, 0]
+  text:
+    x: 20
+    y: 380
+    font: "inputs/Montserrat-Regular.otf"
+    fontSize: 32
+    color: [0, 0, 0]
+
+cards:
+  -
+    name: foo
+    atk: 3
+    def: 4
+    text: |
+      This is the card text.
+      Huzzah?
